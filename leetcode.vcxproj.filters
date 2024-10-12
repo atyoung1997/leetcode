@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="leetcode.cpp">
+    <ClCompile Include="twoSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
