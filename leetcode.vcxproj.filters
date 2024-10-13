@@ -13,10 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Easy">
+      <UniqueIdentifier>{b4fe54d0-91e7-403c-a94d-0bdcefa4f9c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="twoSum.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="longestCommonPrefix.cpp">
+      <Filter>Source Files\Easy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
