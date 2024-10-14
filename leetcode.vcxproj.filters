@@ -33,5 +33,8 @@
     <ClCompile Include="removeDuplicates.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="lengthOfLastWord.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
