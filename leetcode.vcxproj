@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="longestCommonPrefix.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
+    <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="twoSum.cpp" />
   </ItemGroup>
