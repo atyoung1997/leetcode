@@ -134,6 +134,7 @@
     <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="RomanToInt.cpp" />
     <ClCompile Include="twoSum.cpp" />
+    <ClCompile Include="validParen.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
