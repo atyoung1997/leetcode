@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Easy">
       <UniqueIdentifier>{b4fe54d0-91e7-403c-a94d-0bdcefa4f9c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\helpers">
+      <UniqueIdentifier>{78e8c2c3-5e6d-4c58-8c9e-6ba2375044d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="twoSum.cpp">
@@ -42,5 +45,16 @@
     <ClCompile Include="validParen.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="plusOne.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
