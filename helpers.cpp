@@ -1,9 +1,12 @@
 #include "helpers.h"
 
 void printVec(vector<int> v) {
-	for (int i = 0; i < v.size(); i++) {
-		cout << v[i];
+	cout << "[";
+	int i{ 0 };
+	while (i < v.size() - 1) {
+		cout << v[i] << ", ";
+		i++;
 	}
-	cout << '\n';
+	cout << v[i] << "]\n";
 }
 

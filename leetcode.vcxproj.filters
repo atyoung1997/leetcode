@@ -51,6 +51,9 @@
     <ClCompile Include="helpers.cpp">
       <Filter>Source Files\helpers</Filter>
     </ClCompile>
+    <ClCompile Include="searchInsert.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="helpers.h">
