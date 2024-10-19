@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="findStr.cpp" />
     <ClCompile Include="helpers.cpp" />
     <ClCompile Include="lengthOfLastWord.cpp" />
     <ClCompile Include="longestCommonPrefix.cpp" />

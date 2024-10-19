@@ -57,6 +57,9 @@
     <ClCompile Include="palindromeNumber.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="findStr.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="helpers.h">
