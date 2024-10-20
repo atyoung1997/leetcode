@@ -21,6 +21,5 @@
 //}
 //
 //int main() {
-//	cout << __cplusplus;
 //	return 0;
 //}
