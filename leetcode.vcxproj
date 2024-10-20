@@ -139,6 +139,7 @@
     <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="RomanToInt.cpp" />
     <ClCompile Include="searchInsert.cpp" />
+    <ClCompile Include="sqrt.cpp" />
     <ClCompile Include="twoSum.cpp" />
     <ClCompile Include="validParen.cpp" />
   </ItemGroup>
