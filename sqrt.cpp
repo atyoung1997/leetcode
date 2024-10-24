@@ -1,24 +1,36 @@
 #include "helpers.h"
 
 int mySqrt(int x) {
-	long int i = 0;
-	while (i <= x){
-		long int i_squared = i * i;
-		if (i_squared == x) {
-			return i;
-		}
-		if (i_squared > x) {
-			return i-1;
-		}
-		i++;
+	long int low = 0;
+	long int high = x;
+	long int mid = x / 2;
+
+	if (x == 1) {
+		return x;
 	}
-	return i;
+
+	while (mid > low){
+		long int mid_squared{ mid * mid };
+		if (mid_squared == x) {
+			return mid;
+		}
+		
+		if (mid_squared > x) {
+			high = mid;
+		}
+		else {
+			low = mid;
+		}
+		mid = (high + low) / 2;
+	}
+	return low;
 }
 
 int main() {
-	cout << mySqrt(0) << '\n';
-	cout << mySqrt(1) << '\n';
-	cout << mySqrt(2) << '\n';
-	cout << mySqrt(8) << '\n';
+	cout << "result 0: " << mySqrt(0) << '\n';
+	cout << "result 1: " << mySqrt(1) << '\n';
+	cout << "result 2: " << mySqrt(2) << '\n';
+	cout << "result 3: " << mySqrt(3) << '\n';
+	cout << "result 1756: " << mySqrt(1756) << '\n';
 	return 0;
 }
