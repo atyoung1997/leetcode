@@ -134,6 +134,7 @@
     <ClCompile Include="longestCommonPrefix.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="palindromeNumber.cpp" />
+    <ClCompile Include="pascalsTriangle.cpp" />
     <ClCompile Include="plusOne.cpp" />
     <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeElement.cpp" />
