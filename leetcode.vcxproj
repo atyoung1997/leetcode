@@ -130,6 +130,7 @@
     <ClCompile Include="addBinary.cpp" />
     <ClCompile Include="findStr.cpp" />
     <ClCompile Include="helpers.cpp" />
+    <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="lengthOfLastWord.cpp" />
     <ClCompile Include="longestCommonPrefix.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
