@@ -133,6 +133,7 @@
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="lengthOfLastWord.cpp" />
     <ClCompile Include="longestCommonPrefix.cpp" />
+    <ClCompile Include="majorityElement.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="palindromeNumber.cpp" />
     <ClCompile Include="pascalsTriangle.cpp" />
