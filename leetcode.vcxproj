@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="addBinary.cpp" />
     <ClCompile Include="containsDuplicate.cpp" />
+    <ClCompile Include="finalPrice.cpp" />
     <ClCompile Include="findStr.cpp" />
     <ClCompile Include="helpers.cpp" />
     <ClCompile Include="isIsomorphic.cpp" />
